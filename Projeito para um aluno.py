@@ -17,8 +17,10 @@ while True:
         print(f" MEDIA: {media}")
         if media >= 6:
             print(" ALUNO APROVADO! ")
+            break
         elif media < 6:
              print(" ALUNO REPOVADO. ")
+             break
         else:
              print(" RESPOSTA INVALIDA, TENTE NOVAMENT. ")
 
@@ -37,10 +39,13 @@ while True:
                 print(f" MEDIA {media:.1f} ")
                 if media >= 6:
                     print(" ALUNO APROVADO! ")
+                    break
                 elif media < 6:
                     print(" ALUNO EM RECUPERAÇÃO. ")
+                    break
                 else:
                     print(" RESPOSTA INVALIDA, TENTE NOVAMENTE.")
+                    
 
             elif quais == "segunda":
                 nota1 = 0 ; print(" NOTA DA PRIMEIRA PROVA: -")
@@ -50,8 +55,10 @@ while True:
                 print(f" MEDIA: {media:.1f}")
                 if media >= 6:
                     print(" ALUNO APROVADO! ")
+                    break
                 elif media < 6:
                     print(" ALUNO EM RECUPERAÇÃO. ")
+                    break
                 else:
                     print(" RESPOSTA INVALIDA, TENTE NOVAMENTE.")
 
@@ -63,8 +70,10 @@ while True:
                 print(f" MEDIA: {media:.1f}")
                 if media >= 6:
                     print(" ALUNO APROVADO! ")
+                    break
                 elif media < 6:
                     print(" ALUNO EM RECUPERAÇÃO. ")
+                    break
                 else:
                     print(" RESPOSTA INVALIDA, TENTE NOVAMENTE.")
 
@@ -76,8 +85,10 @@ while True:
                 print(f" MEDIA: {media:.1f}")
                 if media >= 6:
                     print(" ALUNO APROVADO! ")
+                    break
                 elif media < 6:
-                    print(" ALUNO EM RECUPERAÇÃO. ")        
+                    print(" ALUNO EM RECUPERAÇÃO. ")
+                    break       
                 else:
                     print(" RESPOSTA INVALIDA, TENTE NOVAMENTE.")  
 
@@ -89,8 +100,10 @@ while True:
                 print(f"MEDIA: {media:.1f}")
                 if media >= 6:
                     print(" ALUNO APROVADO! ")
+                    break
                 elif media < 6:
-                    print(" ALUNO EM RECUPERÇÃO. ")    
+                    print(" ALUNO EM RECUPERÇÃO. ")
+                    break    
                 else:
                     print(" RESPOSTA INVALIDA, TENTE NOVAMENTE.")
 
@@ -103,8 +116,10 @@ while True:
             
                 if media >= 6:
                     print(" ALUNO APROVADO! ")
+                    break
                 elif media < 6:
                     print(" ALUNO EM RECUPERAÇÃO. ")
+                    break
                 else:
                     print(" RESPOSTA INVALIDA, TENTE NOVAMENTE. ")
             else:
@@ -113,6 +128,7 @@ while True:
 
         elif fezAL == "não" or fezAL == "Não" or fezAL == "nao":
             print(" ALUNO REPROVADO. ")
+            break
         else:
             print(" RESPOSTA INVALIDA, TENTE NOVAMENTE.")
     else:
