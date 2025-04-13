@@ -7,7 +7,7 @@ def mostrar_placar(time_A,time_B,pontos_time_A,pontos_time_B):
         print(f'{'':>20} TIME A: {time_A.title()} ',end='')
         print(f'{'':10} TIME B: {time_B.title()}')
         print(f'{'':>27} {pontos_time_A} ',end='')
-        print(f'{'':>25} {pontos_time_B}')
+        print(f'{'':>23} {pontos_time_B}')
         print('=-=' * 28)
 
 def adicionar_pontos(time):
