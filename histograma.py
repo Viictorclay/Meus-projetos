@@ -29,7 +29,8 @@ while True:
             break
         except ValueError:
             print("ERRO! Valor inválido")
-            continue      
+            continue 
+        
     print("---------------------------------------------")
     ndp = ndp = pesoO / (prazoE * taxaP * 22 * 8)
     pessoas = ceil(ndp)

@@ -30,11 +30,13 @@ def finalizar_partida(time_A,time_B,pontos_time_A,pontos_time_B):
 def clear_system():
     os.system('cls' if os.name == 'nt' else 'clear')
 
+
 pontos_time_A = 0
 pontos_time_B = 0
 
 time_A = input(' Time A: ').strip()
 time_B = input(' Time B: ').strip()
+
 
 while True:
 
