@@ -25,6 +25,7 @@ def adicionar_pontos(time):
 def finalizar_partida(time_A,time_B,pontos_time_A,pontos_time_B):
     mostrar_placar(time_A,time_B,pontos_time_A,pontos_time_B)
     print(' Partida finalizada.')
+    print('')
     exit()
 
 def clear_system():
